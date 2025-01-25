@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Information Manager</title>
+</head>
+<body>
+    <header>
+        <h1>Personal Information Manager</h1>
+        
+        <p>A webpage for a user to manage, view and organize their personal information into categories.</p>
+        
+        <nav style="display: flex; flex-direction: column; gap: 1rem; margin: 1rem; padding: 1rem; border: solid 1px black; width: max-content;">
+            <a href="">Add New Information</a>
+            <a href="">View Information</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <form style="display: flex; flex-direction: column; gap: 2rem; margin: 1rem; padding: 1rem; border: solid 1px black; width: max-content;">
+                <img src="workfromhome_072123_adobestock_remote.webp" alt="Man working at home on his laptop." style="width: 40rem">
+                <div>
+                    <label for="category">Category:</label><br>
+                    <select name="category" id="category">
+                        <option value="volvo">Select a Category</option>
+                        <option value="volvo">Work</option>
+                        <option value="saab">Personal</option>
+                        <option value="mercedes">Health</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="infoDescription">Information Description:</label><br>
+                    <input type="text" id="infoDescription" name="infoDescription">
+                </div>
+                
+                <div>
+                    <label for="expiryDate">Expiry Date:</label>
+                    <input type="date" id="expiryDate" name="expiryDate">
+                </div>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section style="display: flex; flex-direction: column; gap: 2rem; margin: 1rem; padding: 1rem; border: solid 1px black; width: max-content;">
+            <table>
+                <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Information Description</th>
+                    <th>Expiry Date</th>
+                </tr>
+                </thead>
+                
+                <tbody>
+                <tr>
+                    <td>Work</td>
+                    <td>T4</td>
+                    <td>July 24, 2025</td>
+                    <td><button>Edit</button></td>
+                    <td><button>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Personal</td>
+                    <td>Drivers Licence</td>
+                    <td>May 4, 2027</td>
+                    <td><button>Edit</button></td>
+                    <td><button>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Health</td>
+                    <td>Doctor Appointment Records</td>
+                    <td>March 17, 2025</td>
+                    <td><button>Edit</button></td>
+                    <td><button>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Health</td>
+                    <td>Health Checkup Records</td>
+                    <td>April 5, 2025</td>
+                    <td><button>Edit</button></td>
+                    <td><button>Delete</button></td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+        <p><strong>Contact Information:</strong></p>
+        <p>Email: <em>borjas@mymacewan.ca</em></p>
+        <p>Phone: <em>(780) 123-4567</em></p>
+        <p>©2025 All Rights Reserved.</p>
+    </footer>
+    
+    <script>
+        
+    </script>
+</body>
+</html>
