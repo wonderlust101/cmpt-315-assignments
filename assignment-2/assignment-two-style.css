@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+}
+
+p,
+label {
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+option {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.1rem;
+}
+
+ul {
+    display: flex;
+    gap: 2.5rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    list-style: none;
+    border-radius: 0.5rem;
+    border: 1px solid #dbdbdb;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 3rem;
+    background-color: #2a3ff4;
+}
+
+body {
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-rows: max-content max-content;
+    gap: 1rem;
+    background-color: #f1f1f1;
+    padding: 1.5rem 3rem;
+}
+
+section {
+    display: grid;
+    gap: 1rem;
+    background-color: white;
+    padding: 1.5rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 0.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+    background-color: black;
+}
+
+fieldset {
+    display: grid;
+    justify-items: flex-start;
+    gap: 1.5rem;
+    border: none;
+}
+
+fieldset > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+input,
+select {
+    padding: 0.25rem;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: inherit;
+    color: white;
+    background-color: #2a3ff4;
+    border: solid 2px transparent;
+    border-radius: 0.25rem;
+}
+
+button:hover {
+    color: #2a3ff4;
+    background-color: white;
+    border: solid 2px #2a3ff4;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    color: white;
+    background-color: #2a3ff4;
+}
+
+th, td {
+    padding: 0.5rem;
+}
+
+td {
+    border: 1px solid #d4d9fd;
+}
+
+tr th {
+    text-align: left;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #d4d9fd;
+}
+
+
+.half-width-input {
+    width: 50%;
+}
