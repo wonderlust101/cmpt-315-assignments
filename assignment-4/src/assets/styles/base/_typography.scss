@@ -1,0 +1,12 @@
+// Global font styles that is applied to all pages
+
+@use '../abstract/index' as a;
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

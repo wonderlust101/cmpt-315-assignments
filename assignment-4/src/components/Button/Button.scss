@@ -1,0 +1,20 @@
+.button {
+  all: unset;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+  color: white;
+  background-color: #336B64;
+  border-radius: 0.25rem;
+  transition: background-color 0.15s;
+
+  &:hover{
+    background-color: #224945;
+    cursor: pointer;
+  }
+
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+}

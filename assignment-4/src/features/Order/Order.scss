@@ -1,0 +1,25 @@
+.order {
+  &__product-details {
+    display: grid;
+    justify-content: flex-start;
+    justify-self: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #181818;
+    border-radius: 0.5rem;
+    width: 25%;
+
+    & p {
+      font-size: 1.1rem;
+    }
+
+    & h2 {
+      font-size: 1.25rem;
+
+    }
+  }
+
+  &__form-submit {
+    justify-self: flex-start;
+  }
+}

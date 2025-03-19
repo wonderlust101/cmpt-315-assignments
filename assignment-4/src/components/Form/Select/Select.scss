@@ -1,0 +1,15 @@
+.select {
+  display: grid;
+  gap: 0.5rem;
+  justify-items: flex-start;
+
+  &__label {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  &__input {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+  }
+}

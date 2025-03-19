@@ -1,0 +1,13 @@
+.app-layout {
+  row-gap: 2.5rem;
+  background-color: #F2F7FA;
+  grid-template-rows: max-content 1fr;
+  min-height: 100vh;
+
+  &__main {
+    display: grid;
+    align-content: flex-start;
+    grid-column: 2;
+    row-gap: 2rem;
+  }
+}

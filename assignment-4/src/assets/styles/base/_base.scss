@@ -1,0 +1,18 @@
+// Global styles that is applied to all pages
+
+@use '../abstract/index' as a;
+
+body {
+  color: #181818;
+  background-color: #F8F8F8;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img, video {
+  border-radius: 0.25rem;
+  width: 100%;
+}
